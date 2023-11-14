@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+    
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+header .top{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn-again{
+    padding: 8px 20px;
+    font-size: 17px;
+}
+.between{
+    font-size: 17px;
+
+}
+
+.secret-number{
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+.secret-number .real-number{
+    text-align: center;
+padding: 0px 25px;
+background-color: #fff;
+color: #000;
+}
+header h1{
+    font-size: 3rem;
+    margin: 1rem ;
+}
+
+/*main*/
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+main .left{
+    display: flex;
+    flex-direction: column;
+}
+main .left input{
+    padding: 20px 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.left button{
+    padding: 15px 5px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+/*right*/
+.right{
+    font-size: 18px;
+    font-weight: bold;
+}
+.message{
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.label-score{
+    padding: 10px;
+}
+.label-highscore{
+    padding: 10px;
+}
+p span{
+    margin: 20px;
+}
+
+/*media queries*/
+@media(max-width: 545px) {
+    header h1{
+        font-size: 2rem;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left input{
+        padding: 15px;
+        width: 80%;
+    }
+    .left button{
+        width: 80%;
+    }
+    
+}
+    
